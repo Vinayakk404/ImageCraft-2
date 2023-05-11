@@ -9,7 +9,6 @@ router.route('/').get((req,res)=>{
 })
 
 const configuration=new Configuration({
-  //  apiKey:"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"
     apiKey: process.env.OPENAI_API_KEY,
 
 })
